@@ -1,0 +1,120 @@
+*{
+	margin: 0;
+}
+body {
+	background: linear-gradient(to right, #D3A665, #ECA56A, #E36F43);
+	background-size: cover;
+	font-family: 'Lato', sans-serif;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.login-panel {
+	margin: 12% auto;
+	width: 500px;
+	background: #fff;
+	border-radius: 10px;
+	padding-top: 30px;
+	border: 2px solid #c28f8f;
+	box-shadow: inset 0px -7px 0px #e4b8b8cc;
+}
+.login-panel .top {
+	background: #FD6768;
+	padding: 10px;
+	border-left: 5px solid #C64E4D;
+	border-right: 5px solid #C64E4D;
+	width: 94.8%;
+	margin-left: -2px;
+}
+.login-panel .top h1 {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 23px;
+	padding: 10px;
+}
+.login-panel .top span a {
+	float: right;
+	position: relative;
+	top: -30px;
+	font-size: 12px;
+	color: #fff;
+	left: -20px;
+	text-transform: uppercase;
+}
+.login-panel .top span img {
+	width: 10px;
+	height: 10px;
+	position: relative;
+	top: 0px;
+	left: 5px;
+}
+.login-panel form {
+	padding: 35px 20px 20px 20px;
+}
+.login-panel form .form-control {
+	width: 92%;
+	padding: 15px;
+	border-radius: 12px;
+	border: 1px solid #d5cccc;
+	text-indent: 15px;
+	box-shadow: 1px 3px 1px #DBD8D8;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 15px;
+	background: #f5f0f0;
+	font-style: italic;
+}
+.login-panel form .form-control.active {
+	border-color: #77D4C2;
+	box-shadow: 1px 1px 1px #b1adad;
+}
+.login-panel form img {
+	border-left: 2px solid;
+	border-color: #BEDED3;
+	position: relative;
+	float: right;
+	top: -35px;
+	width: 22px;
+	right: 25px;
+	height: 23px;
+	padding-left: 10px;
+}
+.login-panel .bottom {
+	padding: 35px 0 25px 0;
+}
+.login-panel .bottom a {
+    display: block;
+    color: #aba8a8;
+    margin-left: 35px;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 18px;
+}
+.login-panel .bottom [type="submit"] {
+	float: right;
+	padding: 8px 25px 8px 25px;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #fd6768;
+	border: 1px solid #fcc7c7;
+	border-radius: 5px;
+	box-shadow: 0px 2px 0px 0px #dbd3d3;
+	position: relative;
+	top: -35px;
+	right: 10px;
+}
+.login-panel .bottom [type="checkbox"] {
+	display: block;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+.login-panel .bottom p {
+	position: absolute;
+	margin-top: -19px;
+	margin-left: 35px;
+	font-size: 17px;
+	color: #c5baba;
+	font-style: italic;
+}
